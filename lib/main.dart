@@ -14,7 +14,7 @@ void main() async {
   // Initialize GetStorage for local storage
   await GetStorage.init();
   
-  // Initialize Supabase for authentication and storage..
+  // Initialize Supabase for authentication and storage.
   await Supabase.initialize(
     url: 'YOUR_SUPABASE_URL',
     anonKey: 'YOUR_SUPABASE_ANON_KEY',
